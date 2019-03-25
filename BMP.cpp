@@ -1,4 +1,3 @@
-
 #include <iostream>
 #include "BMP.h"
 #include <math.h>

@@ -1,8 +1,5 @@
-
-
-
-all: BMP_test.cpp BMP.h BMP.cpp
-	g++ -I/u/courbarm/Eigen/ -mpopcnt -O3 -fopenmp -o out $^
+all:
+	c++ BMP_test.cpp BMP.cpp -Xpreprocessor -fopenmp -lomp -mpopcnt -O3 -o ./bmp
 
 clean:
 	rm -rf *.gch *.o out

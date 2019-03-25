@@ -1,7 +1,8 @@
-
 #include <iostream>
-#include "BMP.h"
 #include <Eigen/Core>
+
+#include "BMP.h"
+
 using Eigen::MatrixXf;
 using namespace std;
 
